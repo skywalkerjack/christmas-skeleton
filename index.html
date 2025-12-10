@@ -76,10 +76,10 @@
 
   <div id="startOverlay">
     🎄 点击屏幕开始 · Click to start 🎄
-    <span>举起双手，雪人会开心跳舞；大家一起蹲下，雪人会跺脚</span>
+    <span>举起双手，雪人会开心跳舞；一起蹲下，雪人会气得跺脚</span>
   </div>
 
-  <div id="titleBanner">Merry Christmas 2025</div>
+  <div id="titleBanner">Merry Christmas 2025 时宜夫妇</div>
 
   <script type="module">
     /* --------- 导入 Three.js 和 MediaPipe ---------- */
@@ -114,7 +114,7 @@
     // 雪人跺脚状态
     let snowmanStompActive = false;      // 是否检测到“大家一起蹲下”
     let snowmanStompStrength = 0;        // 0~1，跺脚强度
-    const SQUAT_HEIGHT_THRESHOLD = 0.55; // 蹲下判定阈值，越小越“苛刻”
+    const SQUAT_HEIGHT_THRESHOLD = 0.6; // 蹲下判定阈值，越小越“苛刻”
 
     // 背景音乐
     let bgmAudio = null;
